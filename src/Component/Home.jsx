@@ -2,6 +2,15 @@ import React from 'react'
 import img1 from '../assets/Images/TEN11 - Puppy Love Collection App Banner.jpg'
 import img2 from '../assets/Images/8J6A0448.jpg'
 import img3 from '../assets/Images/8J6A0460.jpg'
+import img4 from '../assets/Images/ZANDO01.04.202511292-cr-450x672.jpg'
+import img5 from '../assets/Images/ZD__5329-cr-450x672.jpg'
+import img6 from '../assets/Images/ZANDO9936-cr-450x672.jpg'
+import img7 from '../assets/Images/ZANDO270320259290-cr-450x672.jpg'
+import img8 from '../assets/Images/IMG_0162 copy-cr-450x672.jpg'
+import img9 from '../assets/Images/DSC07491-cr-450x672.jpg'
+import img10 from '../assets/Images/Pomelo studio11594-cr-450x672.jpg'
+import img11 from '../assets/Images/IMG_0162 copy-cr-450x672(1).jpg'
+
 import {faBookmark} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -32,124 +41,124 @@ const Home = () => {
         <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
         <div className='flex gap-4  '>
           <div>
-            <img src={img2} alt="" />
+            <img src={img4} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+                $12.59
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Regular Fitted double T-Shirt</p>
             </div>
           </div>
           <div>
-            <img src={img2} alt="" />
+            <img src={img5} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $18.59
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Tartan Maxi Skirt</p>
             </div>
           </div>
         </div>
         <div className='flex gap-4 '>
         <div>
-            <img src={img2} alt="" />
+            <img src={img6} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $20.95
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Kniited Fitted Cardigan</p>
             </div>
           </div>
           <div>
-            <img src={img2} alt="" />
+            <img src={img7} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $17.59
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Gathering Midi Dress</p>
             </div>
           </div>
         </div>
         </div>
 
-        <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
+        <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 mt-20'>
         <div className='flex gap-4  '>
           <div>
-            <img src={img2} alt="" />
+            <img src={img8} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $21.59
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Wide Leg Denim Jean</p>
             </div>
           </div>
           <div>
-            <img src={img2} alt="" />
+            <img src={img9} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $15.95
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Loose Fit Dyat T-Shirt</p>
             </div>
           </div>
         </div>
         <div className='flex gap-4 '>
         <div>
-            <img src={img2} alt="" />
+            <img src={img10} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $18.95
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Loose Fit T-Shirts With Printed</p>
             </div>
           </div>
           <div>
-            <img src={img2} alt="" />
+            <img src={img11} alt="" />
             <div className='mt-3 p-1'>
             <div className='flex justify-between '>
               <div className='font-bold text-base '>
-                12.59$
+              $21.59
               </div>
               <div className='text-gray-400  '>
               <FontAwesomeIcon icon={faBookmark} />
               </div>
             </div>
-            <p className='text-sm'>Regular Fitted do...</p>
+            <p className='text-sm'>Wide Leg Loose Fit Jean.</p>
             </div>
           </div>
         </div>
