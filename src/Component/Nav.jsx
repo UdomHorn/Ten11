@@ -5,8 +5,9 @@ import { faBars,faMagnifyingGlass,faBell,faGear} from '@fortawesome/free-solid-s
 import logo from '../assets/Images/logo.png'
 const Nav = () => {
   return (
-    <div className=''>
-      <div className='flex justify-center items-center   '>
+    <div className='fixed  w-full top-0 left-0 z-10'>
+      <div className='w-full overflow-hidden
+       bg-white flex justify-center items-center   '>
 
       <div className='flex justify-between  w-[80%] items-center p-2.5 max-md:w-full '>
         <div className='flex gap-2 items-center text-2xl ' ><FontAwesomeIcon icon={faBars}/>
