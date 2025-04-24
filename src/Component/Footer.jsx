@@ -1,13 +1,13 @@
 import React from 'react'
-
+import img12 from '../assets/Images/We-accept-payments.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faMobileScreenButton, faFaceAngry} from '@fortawesome/free-solid-svg-icons'
 // import {faFacebookF} from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
   return (
     <div className='w-full bg-footer-0 text-white font-roboto pt-6'>
-      <div className='w-[75%] max-md:w-[94%]  text-white font-roboto flex justify-between items-center m-auto py-4 '>
-      <div className='  '>
+      <div className='w-[75%] max-md:w-[94%] max-md:justify-around max-sm:justify-between  text-white font-roboto flex justify-between items-center m-auto py-4 '>
+      <div className='max-md:hidden  '>
         <div className='text-lg font-bold pb-4'>TEN11 App</div>
         <div className='flex items-center gap-2'>
           <FontAwesomeIcon icon={faMobileScreenButton} />
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=' '>
+      <div className=''>
         <div className='text-lg font-bold pb-4'>Follow Us</div>
         <div className='flex items-center gap-2'>
         {/* <FontAwesomeIcon icon={faFacebookF} /> */}
@@ -58,6 +58,22 @@ const Footer = () => {
           <p>About Us</p>
         </div>
       </div>
+
+      <div className='max-md:hidden '>
+        <div className='text-lg font-bold pb-4'>We Accept</div>
+        <div className='w-[170px]'>
+          <img src={img12} alt="" />
+        </div>
+       
+      </div>
+
+      </div>
+      <div className='max-md:w-[94%] m-auto hidden max-md:block '>
+        <div className='text-lg font-bold pb-4'>We Accept</div>
+        <div className='w-[300px]'>
+          <img src={img12} alt="" />
+        </div>
+       
       </div>
     </div>
   )
