@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../assets/Images/TEN11 - Puppy Love Collection App Banner.jpg'
+import img12 from '../assets/Images/TEN11 - Grand Prix App banner.jpg'
 import img2 from '../assets/Images/8J6A0448.jpg'
 import img3 from '../assets/Images/8J6A0460.jpg'
 import img4 from '../assets/Images/ZANDO01.04.202511292-cr-450x672.jpg'
@@ -10,15 +11,32 @@ import img8 from '../assets/Images/IMG_0162 copy-cr-450x672.jpg'
 import img9 from '../assets/Images/DSC07491-cr-450x672.jpg'
 import img10 from '../assets/Images/Pomelo studio11594-cr-450x672.jpg'
 import img11 from '../assets/Images/IMG_0162 copy-cr-450x672(1).jpg'
-
+import { useEffect, useState } from 'react'
 import {faBookmark} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+const images = [img1, img12]
+
 const Home = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
+    }, 3000); // Change every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
+
   return (
     <div className='pt-[48px] font-roboto'>
       <div>
-        <div><img src={img1} alt="" /></div>
+        <div>
+          <img src={images[currentIndex]}
+           alt={`Slide $currentIndex + 1`} 
+           className="w-full object-cover transition-all duration-3000"
+           />
+          </div>
 
         <div className='w-[75%] max-md:w-[94%] h-full  flex justify-center items-center m-auto mt-4 gap-7'>
         <div>
