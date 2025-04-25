@@ -31,12 +31,12 @@ const Home = () => {
   return (
     <div className='pt-[48px] font-roboto'>
       <div>
-        <div>
+        <div> 
           <img src={images[currentIndex]}
-           alt={`Slide $currentIndex + 1`} 
+           alt={`$currentIndex + 1`} 
            className="w-full object-cover transition-all duration-3000"
            />
-          </div>
+        </div>
 
         <div className='w-[75%] max-md:w-[94%] h-full  flex justify-center items-center m-auto mt-4 gap-7'>
         <div>
