@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import logo from '../assets/Images/logo.png'
 const Nav = () => {
   const [showLogin, setShowLogin] = useState(false);
+  const [gender, setGender] = useState("");
   return (
     <div className='fixed  w-full top-0 left-0 z-10'>
       <div className='w-full overflow-hidden
@@ -42,11 +43,32 @@ const Nav = () => {
               <div className=" text-2xl font-bold ">Shop Preference</div>
               <p className='text-sm mb-2'>Select a category you prefer. You can change this later in the Settings.</p>
               
-              <input type="radio" className='cursor-pointer ' />
-              <label htmlFor="" className='text-base cursor-pointer '>Women</label><br />
-             
-              <input type="radio" className='cursor-pointer ' />
-              <label htmlFor="" className='text-base cursor-pointer '>Men</label><br />
+              
+      <div className="my-6">
+        <label className="flex items-center space-x-2 cursor-pointer">
+          <input
+            type="radio"
+            name="gender"
+            value="Women"
+            checked={gender === "Women"}
+            onChange={() => setGender("Women")}
+            className="form-radio accent-black"
+          />
+          <span className='text-base cursor-pointer '>Women</span>
+        </label> 
+        <label className="flex items-center space-x-2 cursor-pointer">
+          <input
+            type="radio"
+            name="gender"
+            value="Men"
+            checked={gender === "Men"}
+            onChange={() => setGender("Men")}
+            className="form-radio accent-black"
+          />
+          <span className='text-base cursor-pointer '>Men</span>
+        </label>
+      </div>
+    
               
               <button className='w-full bg-black text-white mt-4'>OK</button>
               <button
