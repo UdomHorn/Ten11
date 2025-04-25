@@ -13,7 +13,7 @@ const Nav = () => {
 
       <div className='flex justify-between  w-[80%] items-center p-2.5 max-md:w-full '>
         <div className='flex gap-2 items-center text-2xl ' >
-          <div onClick={() => setShowLogin(true)}>
+          <div className='cursor-pointer' onClick={() => setShowLogin(true)}>
           <FontAwesomeIcon icon={faBars}/>
           </div>
         <div className="flex items-center justify-center bg-red-500">
@@ -60,7 +60,8 @@ const Nav = () => {
           </>
         )}
       </AnimatePresence>
-    </div>
+        </div>
+
         <div className='w-[120px] hidden max-md:block ' ><img src={logo} alt="" /></div></div>
 
         <div className='w-[250px] max-md:hidden max-xl:w-[150px]' ><img src={logo} alt="" /></div>
