@@ -14,14 +14,19 @@ const Nav = () => {
 
       <div className='flex justify-between  w-[80%] items-center p-2.5 max-md:w-full '>
         <div className='flex gap-2 items-center text-2xl ' >
-          <div className='cursor-pointer' onClick={() => setShowLogin(true)}>
+          {/* <div className='cursor-pointer' onClick={() => setShowLogin(true)} >
+          <FontAwesomeIcon icon={faBars}/>
+          </div> */}
+
+<div className='cursor-pointer' >
           <FontAwesomeIcon icon={faBars}/>
           </div>
+{/* 
         <div className="flex items-center justify-center bg-red-500">
       <AnimatePresence>
         {showLogin && (
           <>
-            {/* Background Overlay */}
+           
             <motion.div
               className="fixed inset-0 bg-black bg-opacity-50 z-40"
               initial={{ opacity: 0 }}
@@ -30,7 +35,7 @@ const Nav = () => {
               onClick={() => setShowLogin(false)}
             />
 
-            {/* Login Modal */}
+            
             <motion.div
               className="fixed top-1/2 left-1/2 z-50 w-full max-w-md bg-white rounded-sm shadow-2xl p-8"
               initial={{ opacity: 0, y: -50, scale: 0.9 }}
@@ -82,9 +87,10 @@ const Nav = () => {
           </>
         )}
       </AnimatePresence>
-        </div>
+        </div> */}
 
-        <div className='w-[120px] hidden max-md:block ' ><img src={logo} alt="" /></div></div>
+        <div className='w-[120px] hidden max-md:block ' ><img src={logo} alt="" /></div>
+        </div>
 
         <div className='w-[250px] max-md:hidden max-xl:w-[150px]' ><img src={logo} alt="" /></div>
 
