@@ -27,9 +27,9 @@ const Collection = ({ src, title }) => {
   )
 
 }
-
+// I want to change color of my icon - when click is yellow and not change back to gray to do that we use useState 
 const HightLightCard = ({ src, price, title }) => {
-  const [isClick, setisClick] = useState(0)
+  const [isClick, setIsClick] = useState(0)
   return (
     <div>
       <img src={src} alt="" />
@@ -38,7 +38,7 @@ const HightLightCard = ({ src, price, title }) => {
           <div className='font-bold text-base '>
             {price}
           </div>
-          <div onClick={() => setisClick(!isClick)} className={`${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
+          <div onClick={()=>setIsClick(!isClick)} className={`${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
             <FontAwesomeIcon icon={faBookmark} />
           </div>
         </div>
