@@ -1,8 +1,12 @@
 import React from 'react'
-import img4 from '../assets/Images/ZANDO01.04.202511292-cr-450x672.jpg'
-import img5 from '../assets/Images/ZD__5329-cr-450x672.jpg'
-import img6 from '../assets/Images/ZANDO9936-cr-450x672.jpg'
-import img7 from '../assets/Images/ZANDO270320259290-cr-450x672.jpg'
+import img1 from '../assets/Images/Women/Tube Top Floral Printed.jpg'
+import img2 from '../assets/Images/Women/Strap Top.jpg'
+import img3 from '../assets/Images/Women/Loose Fit Denim Shorts.jpg'
+import img4 from '../assets/Images/Women/Mini Zip-Skirt.jpg'
+import img5 from '../assets/Images/Women/Mini Pleats Skirt.jpg'
+import img6 from '../assets/Images/Women/Sheer Mesh Top.jpg'
+import img7 from '../assets/Images/Women/Regular Fitted Long Sleeves T-Shirt.jpg'
+import img8 from '../assets/Images/Women/Strapless Top With Mesh.jpg'
 import { useEffect, useState } from 'react'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -31,12 +35,23 @@ const Women = () => {
     <div className='pt-[48px] font-roboto'>
           <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
             <div className='flex gap-4  '>
-              <HightLightCard src={img4} price="$12.59" title="Regular Fitted double T-Shirt" />
-              <HightLightCard src={img5} price="$18.59" title="Tartan Maxi Skirt" />
+              <HightLightCard src={img1} price="$7.95" title="Tube Top Floral Printed" />
+              <HightLightCard src={img2} price="$9.59" title="Strap Top" />
             </div>
             <div className='flex gap-4  '>
-              <HightLightCard src={img6} price="$20.95" title="Kniited Fitted Cardigan" />
-              <HightLightCard src={img7} price="$17.59" title="Gathering Midi Dress" />
+              <HightLightCard src={img3} price="$14.95" title="Loose Fit Denim Shorts" />
+              <HightLightCard src={img4} price="$16.59" title="Mini Zip-Skirt" />
+            </div>
+          </div>
+
+          <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 my-20'>
+            <div className='flex gap-4  '>
+              <HightLightCard src={img5} price="$16.59" title="Mini Pleats Skirt" />
+              <HightLightCard src={img6} price="$12.59" title="Sheer Mesh Top" />
+            </div>
+            <div className='flex gap-4  '>
+              <HightLightCard src={img7} price="$15.59" title="Regular Fitted Long Sleeves T-Shirt" />
+              <HightLightCard src={img8} price="$13.95" title="Strapless Top With Mesh" />
             </div>
           </div>
         </div>

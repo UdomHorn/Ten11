@@ -21,7 +21,7 @@ const HightLightCard = ({ src, price, title }) => {
           <div className='font-bold text-base '>
             {price}
           </div>
-          <div onClick={()=> setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400':'text-gray-400'}`}>
+          <div onClick={() => setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
             <FontAwesomeIcon icon={faBookmark} />
           </div>
         </div>
@@ -44,7 +44,7 @@ const Men = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 mt-20'>
+      <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 my-20'>
         <div className='flex gap-4  '>
           <HightLightCard src={img5} price="$1.58" title="Long Socks (1Pairs)" />
           <HightLightCard src={img6} price="$2.59" title="Low Cut Socks(2Pairs)" />
