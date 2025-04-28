@@ -32,7 +32,7 @@ const HightLightCard = ({ src, price, title }) => {
 }
 const Women = () => {
   return (
-    <div className='pt-[48px] font-roboto'>
+    <div className='pt-[48px] font-roboto  w-[80%] max-md:w-full mx-auto'>
           <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
             <div className='flex gap-4  '>
               <HightLightCard src={img1} price="$7.95" title="Tube Top Floral Printed" />
