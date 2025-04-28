@@ -15,6 +15,8 @@ import { useEffect, useState } from 'react'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { div, h2 } from 'framer-motion/client'
+import { Link } from 'react-router-dom'
+
 
 const Collection = ({ src, title }) => {
   return (
@@ -27,7 +29,7 @@ const Collection = ({ src, title }) => {
   )
 
 }
-// I want to change color of my icon - when click is yellow and not change back to gray to do that we use useState 
+// I want to change color to favorite icon by default gray color and click change color to yellow 
 const HightLightCard = ({ src, price, title }) => {
   const [isClick, setIsClick] = useState(0)
   return (
@@ -38,7 +40,7 @@ const HightLightCard = ({ src, price, title }) => {
           <div className='font-bold text-base '>
             {price}
           </div>
-          <div onClick={()=>setIsClick(!isClick)} className={`${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
+          <div onClick={()=> setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400':'text-gray-400'}`}>
             <FontAwesomeIcon icon={faBookmark} />
           </div>
         </div>
@@ -225,8 +227,12 @@ const Home = () => {
         />
       </div>
       <div className='w-[75%] max-md:w-[94%] h-full  flex justify-center items-center m-auto mt-4 gap-7'>
-        <Collection src={img2} title="Women Collection" />
-        <Collection src={img3} title="Men Collection" />
+        <Link to="/Women">
+         <Collection src={img2} title="Women Collection" />
+        </Link>
+        <Link to="/Men">
+          <Collection src={img3} title="Men Collection" />
+        </Link>
       </div>
 
       <div className='w-full text-3xl font-bold mt-10 px-1.5 py-2.5 '>
