@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import logo from '../assets/Images/logo.png'
 import { Link } from 'react-router-dom'
 const Nav = () => {
-  const [showLogin, setShowLogin] = useState(false);
-  const [gender, setGender] = useState("");
+  // const [showLogin, setShowLogin] = useState(false);
+  // const [gender, setGender] = useState("");
   return (
     <div className='fixed  w-full top-0 left-0 z-10'>
       <div className='w-full overflow-hidden
