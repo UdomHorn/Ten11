@@ -215,19 +215,19 @@ const Home = () => {
           <HightLightCard page="/TartanMaxiSkirt" src={img5} price="$18.59" title="Tartan Maxi Skirt" />
         </div>
         <div className='flex gap-4  '>
-          <HightLightCard src={img6} price="$20.95" title="Kniited Fitted Cardigan" />
-          <HightLightCard src={img7} price="$17.59" title="Gathering Midi Dress" />
+          <HightLightCard page="/KniitedFittedCardigan" src={img6} price="$20.95" title="Kniited Fitted Cardigan" />
+          <HightLightCard page="/GatheringMidiDress" src={img7} price="$17.59" title="Gathering Midi Dress" />
         </div>
       </div>
 
       <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 my-20'>
         <div className='flex gap-4  '>
-          <HightLightCard src={img8} price="$21.59" title="Wide Leg Denim Jean" />
-          <HightLightCard src={img9} price="$15.95" title="Loose Fit Dyat T-Shirt" />
+          <HightLightCard page="/WideLegDenimJean" src={img8} price="$21.59" title="Wide Leg Denim Jean" />
+          <HightLightCard page="/LooseFitDyatTShirt" src={img9} price="$15.95" title="Loose Fit Dyat T-Shirt" />
         </div>
         <div className='flex gap-4  '>
-          <HightLightCard src={img10} price="$18.95" title="Loose Fit T-Shirts With Printed" />
-          <HightLightCard src={img11} price="$21.59" title="Wide Leg Loose Fit Jean." />
+          <HightLightCard page="/LooseFitTShirtsWithPrinted" src={img10} price="$18.95" title="Loose Fit T-Shirts With Printed" />
+          <HightLightCard page="/WideLegLooseFitJean" src={img11} price="$21.59" title="Wide Leg Loose Fit Jean." />
         </div>
       </div>
     </div>

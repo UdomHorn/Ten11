@@ -6,6 +6,12 @@ import Women from './Pages/Women'
 import Men from './Pages/Men'
 import Women1 from './Pages/Women1'
 import TartanMaxiSkirt from './Pages/TartanMaxiSkirt'
+import KniitedFittedCardigan from './Pages/KniitedFittedCardigan'
+import GatheringMidiDress from './Pages/GatheringMidiDress'
+import WideLegDenimJean from './Pages/WideLegDenimJean'
+import LooseFitDyatTShirt from './Pages/LooseFitDyatTShirt'
+import LooseFitTShirtsWithPrinted from './Pages/LooseFitTShirtsWithPrinted'
+import WideLegLooseFitJean from './Pages/WideLegLooseFitJean'
 import Footer from './Pages/Footer'
 import {  Router, Routes, Route } from 'react-router-dom'
 function App() {
@@ -20,6 +26,12 @@ function App() {
           <Route path="/Men" element={<Men />} />
           <Route path="/Women1" element={<Women1/>}/>
           <Route path="/TartanMaxiSkirt" element={<TartanMaxiSkirt/>}/>
+          <Route path="/KniitedFittedCardigan" element={<KniitedFittedCardigan/>}/>
+          <Route path="/GatheringMidiDress" element={<GatheringMidiDress/>}/>
+          <Route path='/WideLegDenimJean' element={<WideLegDenimJean/>}/>
+          <Route path='/LooseFitDyatTShirt' element={<LooseFitDyatTShirt/>}/>
+          <Route path='/LooseFitTShirtsWithPrinted' element={<LooseFitTShirtsWithPrinted/>}/>
+          <Route path='/WideLegLooseFitJean' element={<WideLegLooseFitJean/>}/>
           </Routes>
       <Footer />
     </div>

@@ -1,10 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import img1 from '../assets/Images/Women/Women1/ZANDO01.04.202511281.jpg'
-import img2 from '../assets/Images/Women/Women1/ZANDO01.04.202511282.jpg'
-import img3 from '../assets/Images/Women/Women1/ZANDO01.04.202511284.jpg'
-import img4 from '../assets/Images/Women/Women1/ZANDO01.04.202511292.jpg'
-import img5 from '../assets/Images/Women/Women1/ZANDO01.04.202511293.jpg'
+import img1 from '../assets/Images/Women/TartanMaxiSkirt/ZD__5324.jpg'
+import img2 from '../assets/Images/Women/TartanMaxiSkirt/ZD__5325.jpg'
+import img3 from '../assets/Images/Women/TartanMaxiSkirt/ZD__5329.jpg'
+import img4 from '../assets/Images/Women/TartanMaxiSkirt/ZD__5337.jpg'
+import img5 from '../assets/Images/Women/TartanMaxiSkirt/ZD__5324.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
@@ -30,11 +30,11 @@ const TartanMaxiSkirt = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable  src={img1} name="Regular Fitted double T-Shirt"price="$12.59" qty="1"/>
+          <ColorAvailable  src={img1} name="Tartan Maxi Skirt"price="$18.59" qty="1" color="Karo yellow"/>
 
-          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size S."/>
+          <Size model="Model is 165 cm tall / 45kg weight and is wearing size XS."/>
           
-           <Qty code="22225031346" instruction="Regular fitted t-shirt featuring, long-sleeves crop cardigan with sleeveless-top ."/>
+           <Qty code="22224121174" instruction="Tartan maxi skirt featuring side pockets and elastic waistband."/>
          
          <div className='w-full py-3 mt-6 mb-20 bg-black text-white text-center font-bold hover:opacity-90  duration-300 ease-in-out'>Add to bag</div>
 

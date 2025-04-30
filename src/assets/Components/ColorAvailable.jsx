@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark, faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react'
-const ColorAvailable = ({src,name,price,qty}) => {
+const ColorAvailable = ({src,name,price,qty,color}) => {
   const [isClick, setIsClick] = useState(0)
   return (
     <div>
@@ -25,7 +25,7 @@ const ColorAvailable = ({src,name,price,qty}) => {
               <img src={src} alt="" />
 
             </div>
-            <div className='text-sm my-4'>Black</div>
+            <div className='text-sm my-4'>{color}</div>
           </div>
 </div>
 

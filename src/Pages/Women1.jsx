@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Women1/ZANDO01.04.202511293.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+
 const images = [img2, img3, img4, img5]
 
 const Women1 = () => {
@@ -19,6 +20,7 @@ const Women1 = () => {
 
     return () => clearInterval(interval);
   }, []);
+
   return (
     <div className='  p-2.5 pt-[48px] font-roboto w-[80%] max-md:w-full mx-auto text-lg '>
       <div className='sm:flex gap-8'>
@@ -31,7 +33,7 @@ const Women1 = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable  src={img1} name="Regular Fitted double T-Shirt"price="$12.59" qty="1"/>
+          <ColorAvailable  src={img1} name="Regular Fitted double T-Shirt"price="$12.59" qty="1" color="Black"/>
 
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size S."/>
 
