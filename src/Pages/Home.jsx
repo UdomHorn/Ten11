@@ -212,7 +212,7 @@ const Home = () => {
       <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
         <div className='flex gap-4  '>
           <HightLightCard page="/Women1" src={img4} price="$12.59" title="Regular Fitted double T-Shirt" />
-          <HightLightCard src={img5} price="$18.59" title="Tartan Maxi Skirt" />
+          <HightLightCard page="/TartanMaxiSkirt" src={img5} price="$18.59" title="Tartan Maxi Skirt" />
         </div>
         <div className='flex gap-4  '>
           <HightLightCard src={img6} price="$20.95" title="Kniited Fitted Cardigan" />
