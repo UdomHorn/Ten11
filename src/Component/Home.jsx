@@ -30,17 +30,19 @@ const Collection = ({ src, title }) => {
 
 }
 // I want to change color to favorite icon by default gray color and click change color to yellow 
-const HightLightCard = ({ src, price, title }) => {
+const HightLightCard = ({ page,src, price, title }) => {
   const [isClick, setIsClick] = useState(0)
   return (
     <div>
+      <Link to={page}>
       <img src={src} alt="" />
+      </Link>
       <div className='mt-3 p-1'>
         <div className='flex justify-between '>
           <div className='font-bold text-base '>
             {price}
           </div>
-          <div onClick={()=> setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400':'text-gray-400'}`}>
+          <div onClick={() => setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
             <FontAwesomeIcon icon={faBookmark} />
           </div>
         </div>
@@ -228,7 +230,7 @@ const Home = () => {
       </div>
       <div className='w-[75%] max-md:w-[94%] h-full  flex justify-center items-center m-auto mt-4 gap-7'>
         <Link to="/Women">
-         <Collection src={img2} title="Women Collection" />
+          <Collection src={img2} title="Women Collection" />
         </Link>
         <Link to="/Men">
           <Collection src={img3} title="Men Collection" />
@@ -241,7 +243,7 @@ const Home = () => {
 
       <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
         <div className='flex gap-4  '>
-          <HightLightCard src={img4} price="$12.59" title="Regular Fitted double T-Shirt" />
+          <HightLightCard page="/Women1" src={img4} price="$12.59" title="Regular Fitted double T-Shirt" />
           <HightLightCard src={img5} price="$18.59" title="Tartan Maxi Skirt" />
         </div>
         <div className='flex gap-4  '>
