@@ -1,10 +1,10 @@
 
-import Home from './Component/Home'
-import Nav from './Component/Nav'
-import Footer from './Component/Footer'
-import Women from './Component/Women'
-import Men from './Component/Men'
-import Women1 from './Component/Women1'
+import Home from './Pages/Home'
+import Nav from './Pages/Nav'
+import Footer from './Pages/Footer'
+import Women from './Pages/Women'
+import Men from './Pages/Men'
+import Women1 from './Pages/Women1'
 import {  Router, Routes, Route } from 'react-router-dom'
 function App() {
   // const [count, setCount] = useState(0)

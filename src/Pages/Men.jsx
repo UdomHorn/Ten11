@@ -7,29 +7,9 @@ import img5 from '../assets/Images/Men/Long Socks (1Pairs).jpg'
 import img6 from '../assets/Images/Men/Low Cut Socks(2Pairs).jpg'
 import img7 from '../assets/Images/Men/Regular Fitted T-Shirt.jpg'
 import img8 from '../assets/Images/Men/Regular Knitted Short.jpg'
-import { useEffect, useState } from 'react'
-import { faBookmark } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import HightLightCard from '../assets/Components/HightLightCard'
 // I want to change color to favorite icon by default gray color and click change color to yellow 
-const HightLightCard = ({ src, price, title }) => {
-  const [isClick, setIsClick] = useState(0)
-  return (
-    <div>
-      <img src={src} alt="" />
-      <div className='mt-3 p-1'>
-        <div className='flex justify-between '>
-          <div className='font-bold text-base '>
-            {price}
-          </div>
-          <div onClick={() => setIsClick(!isClick)} className={` cursor-pointer ${isClick ? 'text-yellow-400' : 'text-gray-400'}`}>
-            <FontAwesomeIcon icon={faBookmark} />
-          </div>
-        </div>
-        <p className='text-sm'>{title}</p>
-      </div>
-    </div>
-  )
-}
+
 const Men = () => {
   return (
     <div className='pt-[48px] font-roboto w-[80%] max-md:w-full mx-auto'>
