@@ -1,18 +1,16 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import img1 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511281.jpg'
-import img2 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511282.jpg'
-import img3 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511284.jpg'
-import img4 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511292.jpg'
-import img5 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511293.jpg'
+import img1 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517191.jpg'
+import img2 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517193.jpg'
+import img3 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517195.jpg'
+import img4 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517199.jpg'
+import img5 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517200.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
-import AddtoBag from '../assets/Components/AddtoBag'
- 
-const images = [img2, img3, img4, img5]
 
-const RegularFitteddoubleTShirt = () => {
+const images = [img2, img3, img4, img5]
+const StrapTop = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,13 +32,12 @@ const RegularFitteddoubleTShirt = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable src={img1} name="Regular Fitted double T-Shirt" price="$12.59" qty="1" color="Black" />
+          <ColorAvailable  src={img1} name="Strap Top"price="$9.59" qty="1" color="White"/>
 
-          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size S." />
+          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
-          <Qty code="22225031346" instruction="Regular fitted t-shirt featuring, long-sleeves crop cardigan with sleeveless-top ." />
-          <AddtoBag />
-
+           <Qty code="22225031260" instruction="Strap top featuring sleeves and v-neck."/>
+         
 
         </div>
 
@@ -50,4 +47,4 @@ const RegularFitteddoubleTShirt = () => {
   )
 }
 
-export default RegularFitteddoubleTShirt
+export default StrapTop

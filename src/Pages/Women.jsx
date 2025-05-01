@@ -15,23 +15,23 @@ const Women = () => {
     <div className='pt-[48px] font-roboto  w-[80%] max-md:w-full mx-auto'>
           <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4'>
             <div className='flex gap-4  '>
-              <HightLightCard src={img1} price="$7.95" title="Tube Top Floral Printed" />
-              <HightLightCard src={img2} price="$9.59" title="Strap Top" />
+              <HightLightCard page="/TubeTopFloralPrinted" src={img1} price="$7.95" title="Tube Top Floral Printed" />
+              <HightLightCard page="/StrapTop" src={img2} price="$9.59" title="Strap Top" />
             </div>
             <div className='flex gap-4  '>
-              <HightLightCard src={img3} price="$14.95" title="Loose Fit Denim Shorts" />
-              <HightLightCard src={img4} price="$16.59" title="Mini Zip-Skirt" />
+              <HightLightCard page="/LooseFitDenimShorts" src={img3} price="$14.95" title="Loose Fit Denim Shorts" />
+              <HightLightCard page="/MiniZipSkirt" src={img4} price="$16.59" title="Mini Zip-Skirt" />
             </div>
           </div>
 
           <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-4 px-4 my-20'>
             <div className='flex gap-4  '>
-              <HightLightCard src={img5} price="$16.59" title="Mini Pleats Skirt" />
-              <HightLightCard src={img6} price="$12.59" title="Sheer Mesh Top" />
+              <HightLightCard page="/MiniPleatsSkirt" src={img5} price="$16.59" title="Mini Pleats Skirt" />
+              <HightLightCard page="/SheerMeshTop" src={img6} price="$12.59" title="Sheer Mesh Top" />
             </div>
             <div className='flex gap-4  '>
-              <HightLightCard src={img7} price="$15.59" title="Regular Fitted Long Sleeves T-Shirt" />
-              <HightLightCard src={img8} price="$13.95" title="Strapless Top With Mesh" />
+              <HightLightCard page="/RegularFittedLongSleevesTShirt" src={img7} price="$15.59" title="Regular Fitted Long Sleeves T-Shirt" />
+              <HightLightCard page="/StraplessTopWithMesh" src={img8} price="$13.95" title="Strapless Top With Mesh" />
             </div>
           </div>
         </div>

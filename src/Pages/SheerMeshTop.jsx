@@ -1,18 +1,16 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import img1 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511281.jpg'
-import img2 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511282.jpg'
-import img3 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511284.jpg'
-import img4 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511292.jpg'
-import img5 from '../assets/Images/Women/RegularFitteddoubleTShirt/ZANDO01.04.202511293.jpg'
+import img1 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259280.jpg'
+import img2 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259281.jpg'
+import img3 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259285.jpg'
+import img4 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259290.jpg'
+import img5 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259291.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
-import AddtoBag from '../assets/Components/AddtoBag'
- 
-const images = [img2, img3, img4, img5]
 
-const RegularFitteddoubleTShirt = () => {
+const images = [img2, img3, img4, img5]
+const SheerMeshTop = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,13 +32,13 @@ const RegularFitteddoubleTShirt = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable src={img1} name="Regular Fitted double T-Shirt" price="$12.59" qty="1" color="Black" />
+          <ColorAvailable  src={img1} name="Gathering Midi Dress"price="$17.59" qty="1" color="Blue"/>
 
-          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size S." />
+          <Size model="Model is 163 cm tall / 45 kg weight and is wearing size XS."/>
 
-          <Qty code="22225031346" instruction="Regular fitted t-shirt featuring, long-sleeves crop cardigan with sleeveless-top ." />
-          <AddtoBag />
-
+           <Qty code="22225011172
+" instruction="Gathering midi dress featuring sleeveless with front lace and back adjustable tie detail."/>
+         
 
         </div>
 
@@ -50,4 +48,4 @@ const RegularFitteddoubleTShirt = () => {
   )
 }
 
-export default RegularFitteddoubleTShirt
+export default SheerMeshTop
