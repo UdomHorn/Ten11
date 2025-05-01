@@ -20,6 +20,14 @@ import MiniPleatsSkirt from './Pages/MiniPleatsSkirt'
 import SheerMeshTop from './Pages/SheerMeshTop'
 import RegularFittedLongSleevesTShirt from './Pages/RegularFittedLongSleevesTShirt'
 import StraplessTopWithMesh from './Pages/StraplessTopWithMesh'
+import LongSocks from "./Pages/LongSocks"
+import LowCutSocks from './Pages/LowCutSocks'
+import MeshJerseyTShirt from './Pages/MeshJerseyTShirt'
+import RegularFittedTShirt from './Pages/RegularFittedTShirt'
+import RegularKnittedShort from './Pages/RegularKnittedShort'
+import RegularPrintedTShirt from './Pages/RegularPrintedTShirt'
+import RegularSleevelessTankTop from './Pages/RegularSleevelessTankTop'
+import RegularTShirt from './Pages/RegularTShirt'
 import Footer from './Pages/Footer'
 import {  Router, Routes, Route } from 'react-router-dom'
 function App() {
@@ -48,6 +56,15 @@ function App() {
           <Route path='/SheerMeshTop' element={<SheerMeshTop/>}/>
           <Route path='/RegularFittedLongSleevesTShirt' element={<RegularFittedLongSleevesTShirt/>}/>
           <Route path='/StraplessTopWithMesh' element={<StraplessTopWithMesh/>}/>
+
+          <Route path='/LongSocks' element={<LongSocks/>}/>
+          <Route path='/LowCutSocks' element={<LowCutSocks/>}/>
+          <Route path='/MeshJerseyTShirt' element={<MeshJerseyTShirt/>}/>
+          <Route path='/RegularFittedTShirt' element={<RegularFittedTShirt/>}/>
+          <Route path='/RegularKnittedShort' element={<RegularKnittedShort/>}/>
+          <Route path='/RegularPrintedTShirt' element={<RegularPrintedTShirt/>}/>
+          <Route path='/RegularSleevelessTankTop' element={<RegularSleevelessTankTop/>}/>
+          <Route path='/RegularTShirt' element={<RegularTShirt/>}/>
           </Routes>
 
       <Footer />
