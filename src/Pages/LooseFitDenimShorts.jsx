@@ -1,10 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import img1 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259280.jpg'
-import img2 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259281.jpg'
-import img3 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259285.jpg'
-import img4 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259290.jpg'
-import img5 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259291.jpg'
+import img1 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.202517139.jpg'
+import img2 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.202517144.jpg'
+import img3 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.202517145.jpg'
+import img4 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.202517149.jpg'
+import img5 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.202517150.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
@@ -32,12 +32,12 @@ const LooseFitDenimShorts = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable  src={img1} name="Gathering Midi Dress"price="$17.59" qty="1" color="Blue"/>
+          <ColorAvailable  src={img1} name="Loose Fit Denim Shorts"price="$14.95" qty="1" color="Blue"/>
 
-          <Size model="Model is 163 cm tall / 45 kg weight and is wearing size XS."/>
+          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size 26."/>
 
-           <Qty code="22225011172
-" instruction="Gathering midi dress featuring sleeveless with front lace and back adjustable tie detail."/>
+           <Qty code="22225031271
+" instruction="Loose fit denim short featuring side pockets with front button and zipper-up fastening."/>
          
 
         </div>

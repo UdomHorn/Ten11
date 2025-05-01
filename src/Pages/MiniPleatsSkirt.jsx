@@ -1,10 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import img1 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259280.jpg'
-import img2 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259281.jpg'
-import img3 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259285.jpg'
-import img4 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259290.jpg'
-import img5 from '../assets/Images/Women/GatheringMidi Dress/ZANDO270320259291.jpg'
+import img4 from '../assets/Images/Women/Mini Pleats Skirt/ZANDO2204202516883.jpg'
+import img1 from '../assets/Images/Women/Mini Pleats Skirt/ZANDO2204202516888.jpg'
+import img2 from '../assets/Images/Women/Mini Pleats Skirt/ZANDO2204202516889.jpg'
+import img5 from '../assets/Images/Women/Mini Pleats Skirt/ZANDO2204202516892.jpg'
+import img3 from '../assets/Images/Women/Mini Pleats Skirt/ZANDO2204202516893.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
@@ -32,12 +32,11 @@ const MiniPleatsSkirt = () => {
           </div>
         </div>
         <div className='w-1/2 max-sm:w-full'>
-          <ColorAvailable  src={img1} name="Gathering Midi Dress"price="$17.59" qty="1" color="Blue"/>
+          <ColorAvailable  src={img1} name="Mini Pleats Skirt"price="$16.59" qty="1" color="White"/>
 
-          <Size model="Model is 163 cm tall / 45 kg weight and is wearing size XS."/>
+          <Size model="Model is 161 cm tall / 43 kg weight and is wearing size 24."/>
 
-           <Qty code="22225011172
-" instruction="Gathering midi dress featuring sleeveless with front lace and back adjustable tie detail."/>
+           <Qty code="22225031315" instruction="Mini pleats skirt featuring left zipper-up fastening at waist."/>
          
 
         </div>
