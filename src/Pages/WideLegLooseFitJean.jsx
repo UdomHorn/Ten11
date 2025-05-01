@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Men/Wide Leg Loose Fit Jean/ZANDO12032252668.
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const WideLegLooseFitJean = () => {
@@ -38,6 +39,7 @@ const WideLegLooseFitJean = () => {
 
           <Qty code="21225011076" instruction="Wide leg loose fit jean featuring side pockets with front raw-knee with back torn hem and front button with zipper-up fastening." />
 
+          <AddtoBag/>
 
         </div>
 

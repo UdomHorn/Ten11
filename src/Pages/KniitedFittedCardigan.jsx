@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/KniitedFitted Cardigan/ZANDO9946.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const KniitedFittedCardigan = () => {
@@ -37,12 +38,12 @@ const KniitedFittedCardigan = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
            <Qty code="22225011181" instruction="Kniited fitted cardigan featuring long sleeves with front button fastening and round neck."/>
-         
-
+           <AddtoBag/>
         </div>
 
 
       </div>
+      
     </div>
   )
 }

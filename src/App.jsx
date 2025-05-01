@@ -4,7 +4,7 @@ import Nav from './Pages/Nav'
 
 import Women from './Pages/Women'
 import Men from './Pages/Men'
-import Women1 from './Pages/Women1'
+import RegularFitteddoubleTShirt from './Pages/RegularFitteddoubleTShirt'
 import TartanMaxiSkirt from './Pages/TartanMaxiSkirt'
 import KniitedFittedCardigan from './Pages/KniitedFittedCardigan'
 import GatheringMidiDress from './Pages/GatheringMidiDress'
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Women" element={<Women />} />
           <Route path="/Men" element={<Men />} />
-          <Route path="/Women1" element={<Women1/>}/>
+          <Route path="/RegularFitteddoubleTShirt" element={<RegularFitteddoubleTShirt/>}/>
           <Route path="/TartanMaxiSkirt" element={<TartanMaxiSkirt/>}/>
           <Route path="/KniitedFittedCardigan" element={<KniitedFittedCardigan/>}/>
           <Route path="/GatheringMidiDress" element={<GatheringMidiDress/>}/>

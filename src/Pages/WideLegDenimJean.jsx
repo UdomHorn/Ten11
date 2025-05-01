@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Men/WideLegDenim Jean/AFTERNOON15513.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 
@@ -38,8 +39,7 @@ const WideLegDenimJean = () => {
             <Size model="Model is 176 cm tall / 66 kg weight and is wearing size 30."/>
   
              <Qty code="21224121123" instruction="Wide leg denim jean featuring side pockets with front grahpic design printed and front button with zipper-up fastening."/>
-           
-  
+           <AddtoBag/>
           </div>
   
   

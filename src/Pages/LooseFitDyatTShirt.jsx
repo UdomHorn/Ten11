@@ -8,7 +8,7 @@ import img5 from '../assets/Images/Men/LooseFitDyat T-Shirt/ZANDO10APR202513258.
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
-
+import AddtoBag from '../assets/Components/AddtoBag'
 const images = [img2, img3, img4, img5]
 const LooseFitDyatTShirt = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,8 +37,8 @@ const LooseFitDyatTShirt = () => {
             <Size model="Model is 176 cm tall / 66 kg weight and is wearing size M."/>
   
              <Qty code="2122411988" instruction="Loose fit dyat t-shirt featuring short sleeves with front graphic design printed and round neck."/>
-           
-  
+
+             <AddtoBag/>
           </div>
   
   
