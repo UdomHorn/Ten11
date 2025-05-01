@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Sheer Mesh Top/ZANDO2204202516549.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const SheerMeshTop = () => {
@@ -37,8 +38,8 @@ const SheerMeshTop = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
            <Qty code="22225031313" instruction="Sheer mesh top featuring long sleeves with ruffle and round neck."/>
-         
 
+           <AddtoBag/>
         </div>
 
 

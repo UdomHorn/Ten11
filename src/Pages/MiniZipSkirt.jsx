@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Mini Zip-Skirt/ZANDO2204202516858.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const MiniZipSkirt = () => {
@@ -37,7 +38,7 @@ const MiniZipSkirt = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size 24."/>
 
            <Qty code="22225011172" instruction="Mini zip-skirt featuring front zipp-fastening."/>
-         
+         <AddtoBag/>
 
         </div>
 

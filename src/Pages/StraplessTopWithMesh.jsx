@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Strapless Top With Mesh/ZANDO2204202516
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const StraplessTopWithMesh = () => {
@@ -37,7 +38,7 @@ const StraplessTopWithMesh = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
            <Qty code="22225031231" instruction="Strapless top featuring sleeveless with front tie detial and mesh."/>
-         
+         <AddtoBag/>
 
         </div>
 

@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Tube Top Floral Printed/ZANDO23.04.2025
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const TubeTopFloralPrinted = () => {
@@ -37,7 +38,7 @@ const TubeTopFloralPrinted = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
            <Qty code="22225031276" instruction="Tube top featuring sleeveless with floral printed."/>
-         
+         <AddtoBag/>
 
         </div>
 

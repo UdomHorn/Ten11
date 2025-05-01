@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Regular Fitted Long Sleeves T-Shirt/ZAN
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const RegularFittedLongSleevesTShirt = () => {
@@ -38,7 +39,7 @@ const RegularFittedLongSleevesTShirt = () => {
 
            <Qty code="22225031281" instruction="Regular fitted t-shirt featuring long sleeves with front rouched with tie detail and front button-up fastenin.
 "/>
-         
+         <AddtoBag/>
 
         </div>
 

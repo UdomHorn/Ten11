@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Loose Fit Denim Shorts/ZANDO23.04.20251
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const LooseFitDenimShorts = () => {
@@ -38,8 +39,7 @@ const LooseFitDenimShorts = () => {
 
            <Qty code="22225031271
 " instruction="Loose fit denim short featuring side pockets with front button and zipper-up fastening."/>
-         
-
+        <AddtoBag/>
         </div>
 
 

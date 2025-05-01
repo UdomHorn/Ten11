@@ -8,6 +8,7 @@ import img5 from '../assets/Images/Women/Strap Top/ZANDO23.04.202517200.jpg'
 import Size from '../assets/Components/Size'
 import ColorAvailable from '../assets/Components/ColorAvailable'
 import Qty from '../assets/Components/Qty'
+import AddtoBag from '../assets/Components/AddtoBag'
 
 const images = [img2, img3, img4, img5]
 const StrapTop = () => {
@@ -37,7 +38,7 @@ const StrapTop = () => {
           <Size model="Model is 161 cm tall / 43 kg weight and is wearing size XS."/>
 
            <Qty code="22225031260" instruction="Strap top featuring sleeves and v-neck."/>
-         
+         <AddtoBag/>
 
         </div>
 
